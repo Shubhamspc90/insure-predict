@@ -36,7 +36,8 @@ st.set_page_config(
 # API Configuration
 # ============================================================
 
-API_URL = "http://localhost:8000/predict"
+API_URL = "http://localhost:8000/predict"  # before AWS 
+# API_URL = "http://3.25.90.197:8000/predict"  # after AWS
 
 
 # ============================================================
